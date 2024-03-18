@@ -19,6 +19,8 @@ a{
     margin: 0 auto;
 }
 
+/* SECTION NAVIGATION */
+
 header .section-navigation .section-navigation-1{
     display: flex;
     justify-content: space-between;
@@ -43,4 +45,60 @@ header .section-navigation .section-navigation-1 .icons-2{
 
 header .section-navigation .section-navigation-1 .title p{
     font-size: 25px;
+}
+
+header .section-navigation .section-navigation-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+
+header .section-navigation .section-navigation-2 .text{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SECTION INFO */
+
+header .section-info{
+    margin-top: 100px;
+}
+
+header .section-info .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+
+header .section-info .container .info-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .section-info .container .info-2{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+header .section-info .container .info-1 .p-1{
+    width: 75%;
+    font-size: 156px;
+}
+
+header .section-info .container .info-1 .p-2{
+    width: 20%;
+    align-self: flex-end;
+}
+
+header .section-info .container .info-2 .img-1{
+    width: 75%;
+}
+
+header .section-info .container .info-2 .img-2{
+    width: 20%;
 }
