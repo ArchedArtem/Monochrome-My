@@ -1,0 +1,46 @@
+@import url(./fonts.css);
+
+*{
+    font-family: 'Manrope-Medium', sans-serif;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    color: inherit;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .section-navigation .section-navigation-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    height: 50px;
+}
+
+header .section-navigation .section-navigation-1 .icons-1{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .section-navigation .section-navigation-1 .icons-2{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+header .section-navigation .section-navigation-1 .title p{
+    font-size: 25px;
+}
