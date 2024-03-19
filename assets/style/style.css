@@ -65,6 +65,7 @@ header .section-navigation .section-navigation-2 .text{
 
 header .section-info{
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 header .section-info .container{
@@ -86,11 +87,22 @@ header .section-info .container .info-2{
 }
 
 header .section-info .container .info-1 .p-1{
-    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    align-content: end;
+    height: 140px;
     font-size: 156px;
 }
 
-header .section-info .container .info-1 .p-2{
+header .section-info .container .info-1 .cont{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+}
+
+#p-2{
     width: 20%;
     align-self: flex-end;
 }
