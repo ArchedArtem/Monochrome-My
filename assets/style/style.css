@@ -61,6 +61,10 @@ header .section-navigation .section-navigation-2 .text{
     justify-content: space-between;
 }
 
+#p-en{
+    color: rgb(185, 183, 183);
+}
+
 /* SECTION INFO */
 
 header .section-info{
