@@ -114,3 +114,30 @@ header .section-info .container .info-2 .img-1{
 header .section-info .container .info-2 .img-2{
     width: 20%;
 }
+
+/* SECTION CATEGORY */
+
+main .section-category{
+    margin-top: 350px;
+    margin-bottom: 200px;
+}
+
+main .section-category .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .section-category .container .text{
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+main .section-category .container .cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section-category .container .cards .card p{
+    font-size: 20px;
+}
