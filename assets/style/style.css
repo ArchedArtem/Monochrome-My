@@ -141,3 +141,45 @@ main .section-category .container .cards{
 main .section-category .container .cards .card p{
     font-size: 20px;
 }
+
+/* SECTION COLLECTION */
+
+main .section-collection{
+    background-image: url(../img/6.jpg);
+    margin-top: 200px;
+    height: 700px;
+}
+
+main .section-collection .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section-collection .container .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    width: 60%;
+    color: white;
+}
+
+main .section-collection .container .text .p-1{
+    font-size: 70px;
+}
+
+main .section-collection .container .text .p-2-2{
+    width: 73%;
+}
+
+main .section-collection .container .text .p-2{
+    font-size: 18px;
+    text-align: center;
+}
+
+main .section-collection .container .text button{
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+}
