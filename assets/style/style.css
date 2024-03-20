@@ -34,7 +34,11 @@ header .section-navigation p{
     cursor: pointer;
 }
 
-header .section-navigation i, img{
+header .section-navigation i{
+    cursor: pointer;
+}
+
+header .section-navigation img{
     cursor: pointer;
 }
 
