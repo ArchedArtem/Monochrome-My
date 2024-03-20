@@ -392,3 +392,41 @@ main .section-card .container .text .interactiv .top .typ-1{
 main .section-card .container .text .interactiv .bottom{
     font-size: 14px;
 }
+
+/* SECTION PREMIUM */
+
+main .section-premium{
+    background-color: black;
+    margin-top: 150px;
+}
+
+main .section-premium .container{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .section-premium .container .card{
+    width: 20%;
+    height: 140px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .section-premium .container .card i{
+    font-size: 30px;
+}
+
+main .section-premium .container .card p{
+    font-family: 'Manrope-Regular';
+    font-size: 20px;
+}
+
+main .section-premium .container .card .p-2{
+    font-family: 'Manrope-Regular';
+    font-size: 13px;
+}
