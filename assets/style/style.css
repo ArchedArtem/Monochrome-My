@@ -217,3 +217,77 @@ main .section-new_sezon .container .photos .photo-2{
 main .section-new_sezon .container .photos p{
     font-size: 20px;
 }
+
+/* SECTION CARD */
+
+main .section-card{
+    margin-top: 200px;
+}
+
+main .section-card .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+main .section-card .container .photo{
+    width: 50%;
+}
+
+main .section-card .container .text{
+    width:  40%;
+    height: 100%;
+    font-size: 14px;
+}
+
+main .section-card .container .text .title .p-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section-card .container .text .title .p-1 .p-1-2{
+    display: flex;
+    align-items: center;
+}
+
+main .section-card .container .text .title .p-1 .p-1-1{
+    font-size: 60px;
+}
+
+main .section-card .container .text .title .p-2{
+    font-size: 20px;
+    width: 80%;
+}
+
+main .section-card .container .text .size{
+    display: flex;
+    flex-direction: column;
+}
+
+main .section-card .container .text .size .text-p{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section-card .container .text .size .block{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(183, 181, 181);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .section-card .container .text .size .block p{
+    color: rgb(183, 181, 181);
+}
+
+main .section-card .container .text .size .block i{
+    font-size: 18px;
+}
+
+main .section-card .container .text .promo{
+    display: flex;
+}
