@@ -187,3 +187,33 @@ main .section-collection .container .text button{
     height: 50px;
     width: 200px;
 }
+
+/* SECTION NEW SEZON */
+
+main .section-new_sezon{
+    margin-top: 150px;
+}
+
+main .section-new_sezon .container .photos{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section-new_sezon .container .text{
+    display: flex;
+    flex-direction: column;
+}
+
+main .section-new_sezon .container .text .p-2{
+    align-self: flex-end;
+}
+
+main .section-new_sezon .container .photos .photo-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .section-new_sezon .container .photos p{
+    font-size: 20px;
+}
