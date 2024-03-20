@@ -235,9 +235,12 @@ main .section-card .container .photo{
 }
 
 main .section-card .container .text{
+    margin-bottom: 0px;
     width:  40%;
-    height: 100%;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main .section-card .container .text .title .p-1{
@@ -246,12 +249,14 @@ main .section-card .container .text .title .p-1{
 }
 
 main .section-card .container .text .title .p-1 .p-1-2{
+    width: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 main .section-card .container .text .title .p-1 .p-1-1{
-    font-size: 60px;
+    font-size: 70px;
 }
 
 main .section-card .container .text .title .p-2{
@@ -260,14 +265,20 @@ main .section-card .container .text .title .p-2{
 }
 
 main .section-card .container .text .size{
+    height: 80px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 main .section-card .container .text .size .text-p{
-    font-size: 12px;
+    font-size: 13px;
     display: flex;
     justify-content: space-between;
+}
+
+main .section-card .container .text .size .text-p a{
+    text-decoration: underline;
 }
 
 main .section-card .container .text .size .block{
@@ -290,4 +301,56 @@ main .section-card .container .text .size .block i{
 
 main .section-card .container .text .promo{
     display: flex;
+    justify-content: space-between;
+}
+
+main .section-card .container .text .promo p{
+    font-size: 40px;
+}
+
+main .section-card .container .text .promo input{
+    height: 50px;
+    width: 60%;
+    padding-left: 20px;
+    border: 1px solid rgb(183, 181, 181);
+    color: rgb(183, 181, 181);
+}
+
+main .section-card .container .text .korzina{
+    height: 60px;
+}
+
+main .section-card .container .text .korzina button{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+
+main .section-card .container .text .interactiv{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .section-card .container .text .interactiv .top{
+    border-bottom: 1px solid rgb(183, 181, 181);
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+main .section-card .container .text .interactiv .top span{
+    color: rgb(183, 181, 181);
+}
+
+main .section-card .container .text .interactiv .top .typ-1{
+    border-bottom: 1px solid black;
+}
+
+main .section-card .container .text .interactiv .bottom{
+    font-size: 14px;
 }
