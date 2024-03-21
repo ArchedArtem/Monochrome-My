@@ -470,6 +470,7 @@ main .section-about .container .text .p-bottom{
 
 main .section-subscribe{
     margin-top: 150px;
+    margin-bottom: 0px;
     height: 1200px;
     background-color: black;
     color: white;
@@ -595,4 +596,40 @@ main .section-subscribe .container .info .forma button:hover{
     color: rgb(255, 255, 255);
     transition: .3s;
     cursor: pointer;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    border-top: 1px solid white;
+    margin-top: -200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+footer .container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+footer .container .icons .vk{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+}
+
+footer .container .icons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: underline;
 }
