@@ -431,3 +431,37 @@ main .section-premium .container .card .p-2{
     font-family: 'Manrope-Regular';
     font-size: 13px;
 }
+
+/* SECTION ABOUT */
+
+main .section-about{
+    margin-top: 150px;
+}
+
+main .section-about .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .section-about .container .text{
+    font-size: 22px;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .section-about .container .text .p-title{
+    font-size: 80px;
+}
+
+main .section-about .container .text .p-bottom{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 90px;
+}
