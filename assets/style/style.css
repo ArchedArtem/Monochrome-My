@@ -640,7 +640,92 @@ footer a{
 
 @media (max-width: 1200px) {
     .container{
-        width: 1140px;
+        width: 98%;
+    }
+
+    header .section-navigation .section-navigation-2{
+        font-size: 1.6vw;
+    }
+
+    header .section-info .container .info-1 .p-1{
+        font-size: 12.5vw;
+    }
+
+    #p-2{
+        font-size: 1.5vw;
+    }
+
+    .section-category{
+        margin-top: 400px !important;
+    }
+
+    .section-category .container .text p{
+        font-size: 9vw;
+    }
+
+    .section-category .container .cards .card{
+        width: 30%;
+    }
+
+    .section-category .container .cards .card img{
+        width: 100%;
+    }
+
+    .section-category .container .cards{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    main .section-category .container .cards .card p{
+        font-size: 2.5vw;
+    }
+
+    main .section-category .container .cards .card p{
+        font-size: 2.5vw;
+    }
+
+    main .section-collection .container .text .p-1{
+        font-size: 6.1vw;
+    }
+
+    main .section-collection .container .text .p-2{
+        font-size: 3vw;
+    }
+
+    main .section-new_sezon .container .photos{
+        width: 100%;
+    }
+
+    main .section-new_sezon .container .photos .photo{
+        width: 30%;
+    }
+
+    main .section-new_sezon .container .photos .photo p{
+        font-size: 2.5vw;
+    }
+
+    main .section-new_sezon .container .photos .photo img{
+        width: 100%;
+    }
+
+    .section-card .container .text p{
+        font-size: 15px;
+    }
+
+    .section-card .container .photo{
+        width: 45%;
+    }
+
+    .section-card .container .photo img{
+        width: 100%;
+    }
+
+    main .section-card .container .text .title .p-1 .p-1-1{
+        font-size: 25px !important;
+    }
+
+    .section-about .container .text p{
+        font-size: 20px;
     }
 }
 
