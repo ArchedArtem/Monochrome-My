@@ -646,13 +646,7 @@ footer a{
 
 @media (max-width: 992px) {
     .container{
-        width: 960px;
-    }
-}
-
-@media (max-width: 768px) {
-    .container{
-        width:  98%;
+        width: 98%;
     }
 
     header .section-navigation .section-navigation-2{
@@ -665,6 +659,10 @@ footer a{
 
     #p-2{
         font-size: 1.5vw;
+    }
+
+    .section-category{
+        margin-top: 225px !important;
     }
 
     .section-category .container .text p{
@@ -746,12 +744,20 @@ footer a{
         height: 30px;
     }
 
+    main .section-card .container .text .size .block select{
+        font-size: 2vw;
+    }
+
     main .section-card .container .text .promo p{
         font-size: 4vw !important;
     }
 
     main .section-card .container .text .promo{
         height: 30px;
+    }
+
+    main .section-card .container .text .promo input{
+        font-size: 2vw;
     }
 
     main .section-card .container .text .korzina button{
@@ -784,7 +790,7 @@ footer a{
     }
 
     main .section-about .container .text p{
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     main .section-about .container .text .p-title{
@@ -801,7 +807,7 @@ footer a{
     }
 
     main .section-subscribe{
-        height: 50%;
+        height: 80%;
     }
 
     main .section-subscribe .container .title p{
@@ -828,6 +834,229 @@ footer a{
     main .section-subscribe .container .info .forma{
         margin-top: 5%;
         width: 70%;
+        height: 70%;
+    }
+
+    footer .container .text p{
+        font-size: 1.5vw;
+    }
+
+    footer .container .icons{
+        width: 30%;
+        height: 100%;
+    }
+
+    footer .container .icons .vk{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  98%;
+    }
+
+    header .section-navigation .section-navigation-2{
+        font-size: 1.6vw;
+    }
+
+    header .section-info .container .info-1 .p-1{
+        font-size: 12.5vw;
+    }
+
+    #p-2{
+        font-size: 1.5vw;
+    }
+
+    .section-category{
+        margin-top: 225px !important;
+    }
+
+    .section-category .container .text p{
+        font-size: 9vw;
+    }
+
+    .section-category .container .cards .card{
+        width: 30%;
+    }
+
+    .section-category .container .cards .card img{
+        width: 100%;
+    }
+
+    .section-category .container .cards{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    main .section-category .container .cards .card p{
+        font-size: 2.5vw;
+    }
+
+    main .section-collection .container .text .p-1{
+        font-size: 6.1vw;
+    }
+
+    main .section-collection .container .text .p-2{
+        font-size: 3vw;
+    }
+
+    main .section-new_sezon .container .photos{
+        width: 100%;
+    }
+
+    main .section-new_sezon .container .photos .photo{
+        width: 30%;
+    }
+
+    main .section-new_sezon .container .photos .photo p{
+        font-size: 2.5vw;
+    }
+
+    main .section-new_sezon .container .photos .photo img{
+        width: 100%;
+    }
+
+    .section-card .container{
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .section-card .container .photo{
+        width: 30% !important;
+    }
+
+    main .section-card .container .text{
+        width: 60%;
+        height: 60%;
+    }
+
+    .section-card .container .text p{
+        font-size: 2vw !important;
+    }
+
+    main .section-card .container .text .title .p-1 .p-1-1{
+        font-size: 4vw !important;
+    }
+
+    .section-card .container .photo img{
+        width: 100%;
+    }
+
+    main .section-card .container .text .size{
+        height: 50px;
+    }
+
+    main .section-card .container .text .size .block{
+        height: 30px;
+    }
+
+    main .section-card .container .text .size .block select{
+        font-size: 2vw;
+    }
+
+    main .section-card .container .text .promo p{
+        font-size: 4vw !important;
+    }
+
+    main .section-card .container .text .promo{
+        height: 30px;
+    }
+
+    main .section-card .container .text .promo input{
+        font-size: 2vw;
+    }
+
+    main .section-card .container .text .korzina button{
+        height: 40px;
+        font-size: 2vw;
+    }
+
+    main .section-card .container{
+        height: 800px;
+    }
+
+    main .section-premium .container .card i{
+        font-size: 3vw;
+    }
+
+    main .section-premium .container .card p{
+        font-size: 2.5vw;
+    }
+
+    main .section-premium .container .card .p-2{
+        font-size: 1.8vw;
+    }
+
+    main .section-about .container{
+        flex-direction: column;
+    }
+
+    main .section-about .container .text{
+        width: 100%;
+    }
+
+    main .section-about .container .text p{
+        font-size: 3vw;
+    }
+
+    main .section-about .container .text .p-title{
+        font-size: 12vw;
+        text-align: center;
+    }
+
+    main .section-about .container .text .p-bottom{
+        margin-top: 5%;
+    }
+
+    main .section-about .container .text .p-bottom{
+        height: 70%;
+    }
+
+    main .section-subscribe{
+        height: 80%;
+    }
+
+    main .section-subscribe .container .title p{
+        font-size: 7vw;
+    }
+
+    main .section-subscribe .container .info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .section-subscribe .container .info .photo img{
+        width: 100%;
+    }
+
+    main .section-subscribe .container .info .photo{
+        width: 100%;
+    }
+
+    main .section-subscribe .container .info .photo p{
+        font-size: 3vw;
+    }
+
+    main .section-subscribe .container .info .forma{
+        margin-top: 5%;
+        width: 70%;
+        height: 70%;
+    }
+
+    footer .container .text p{
+        font-size: 1.5vw;
+    }
+
+    footer .container .icons{
+        width: 30%;
+        height: 100%;
+    }
+
+    footer .container .icons .vk{
+        width: 40px;
+        height: 40px;
     }
 }
 
