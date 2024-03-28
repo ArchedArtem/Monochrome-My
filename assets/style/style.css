@@ -585,10 +585,19 @@ main .section-subscribe .container .info .forma .obrabotka input{
     margin-right: 10px;
 }
 
+main .section-subscribe .container .info .forma form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 main .section-subscribe .container .info .forma button{
     height: 60px;
+    width: 100%;
     font-size: 18px;
     transition: .3s;
+    margin-top: 10px;
 }
 
 main .section-subscribe .container .info .forma button:hover{
